@@ -46,6 +46,10 @@ header{
     background-repeat: no-repeat;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
 .logo>*{
     height: 50px;
     padding: 5px;
@@ -237,10 +241,19 @@ footer{
     padding-left: 120px;
 }
 
+#Boolando:hover{
+    cursor: pointer;
+}
+
 
 .rights{
     margin-right: 10px;
     font-size: 16px;
+}
+
+.rights:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 
@@ -252,6 +265,10 @@ footer{
 
 i{
     margin-right: 5px;
+}
+
+i:hover{
+    cursor: pointer;
 }
 
 /* END FOOTER */
